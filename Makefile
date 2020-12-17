@@ -5,7 +5,7 @@ build:
 	cd public; \
 	touch .nojekyll; \
 	echo seismo-learn.org > CNAME; \
-	echo "Hello world! I'm seismo-learn" > index.html
+	echo '<html><head><meta http-equiv="refresh" content="0; URL=https://seismo-learn.org/software/" /></head></html>' > index.html
 
 clean:
 	rm -r public
