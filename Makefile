@@ -9,6 +9,7 @@ build:
 		 "<ul>" \
 		 "<li><a target='_blank' href='https://seismo-learn.org/software/'>https://seismo-learn.org/software/</a></li>" \
 		 "<li><a target='_blank' href='https://seismo-learn.org/seismology101/'>https://seismo-learn.org/seismology101/</a></li>" \
+		 "<li><a target='_blank' href='https://seismo-learn.org/seismology/'>https://seismo-learn.org/seismology/</a></li>" \
 		 "</ul>" \
 	> index.html
 
