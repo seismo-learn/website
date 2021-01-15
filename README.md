@@ -12,7 +12,7 @@
 1.	安装 [Hugo](https://gohugo.io/)
 2.	构建网站
 	```
-	hugo
+	$ hugo
 	```
 	生成的网站位于 `public` 目录下。
 3.  也可以执行 `hugo server` 并在浏览器里打开 http://localhost:1313 以预览网站。
