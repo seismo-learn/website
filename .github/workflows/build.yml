@@ -25,6 +25,13 @@ jobs:
           hugo-version: '0.79.1'
           extended: true
 
+      - name: Make changes for PR preview
+        run: |
+           sed -i "" 's#https:\/\/seismo-learn.org\/#https:\/\/seismo-learn.org\/sitepreview\/seismo-learn\/website\/design\/#' config/_default/config.toml
+        if: github.event_name == 'pull_request'
+
+        baseurl = "https://seismo-learn.org/"
+
       - name: Build the website
         run: make all
 
