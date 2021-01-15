@@ -51,7 +51,7 @@ hero_media = "logo.png"
 #  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
-欢迎访问地震“学”网站!
+欢迎访问地震“学”网站！
 
 地震“学”网站源起于 [SeisMan 博客](https://seisman.info/)。
 建立本网站的核心目标是：
