@@ -8,7 +8,7 @@ weight = 10  # Order that this section will appear.
 title = "地震“学”"
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
-hero_media = "hero-academic.png"
+hero_media = "logo.png"
 
 [design.background]
   # Apply a background color, gradient, or image.
