@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "地震“学”"
+title = ""
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
 hero_media = "logo.png"
@@ -51,3 +51,10 @@ hero_media = "logo.png"
 #  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
+欢迎访问地震“学”网站!
+
+地震“学”网站源起于 [seisman 博客](https://seisman.info/)。
+建立网站的核心目标是：
+
+- 提供地震学入门培训材料
+- 系统地整理和维护地震学科研相关的材料

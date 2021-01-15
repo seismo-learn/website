@@ -48,24 +48,14 @@ subtitle = ""
 
 +++
 
-### 这是什么？
-
-seismo-learn，即地震“学”。
-
-### 为什么要建这个网站？
-
-- 源起于 seisman 博客
-- 系统整理和维护与地震学相关的材料
-- 提供和维护地震学入门培训材料
-
 ### 我们是谁？
 
-- 姚家园（a.k.a. core-man） @ Nanyang Technological University
-- 田冬冬 (a.k.a. seisman) @ Michigan State University
+- 姚家园 (a.k.a. [core-man](https://github.com/core-man)) @ Nanyang Technological University
+- 田冬冬 (a.k.a. [seisman](https://github.com/seisman)) @ Michigan State University
 
 ### 如何参与？
 
-- [GitHub](https://github.com/seismo-learn)
-- Issue
-- Pull Request
-- GitHub Discussions
+本站的网站和文档源码都开源托管在 [GitHub](https://github.com/seismo-learn) 上。
+欢迎地震学科研工作者通过 [Issue](https://github.com/seismo-learn/website/issues)
+和 [GitHub Discussions](https://github.com/seismo-learn/website/discussions)
+给予反馈。
