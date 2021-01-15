@@ -1,17 +1,12 @@
 all: build
 
 build:
-	mkdir -p public; \
-	cd public; \
-	touch .nojekyll; \
-	echo seismo-learn.org > CNAME; \
-	echo "<h2>List of seismo-learn sites:</h2>" \
-		 "<ul>" \
-		 "<li><a target='_blank' href='https://seismo-learn.org/software/'>https://seismo-learn.org/software/</a></li>" \
-		 "<li><a target='_blank' href='https://seismo-learn.org/seismology101/'>https://seismo-learn.org/seismology101/</a></li>" \
-		 "<li><a target='_blank' href='https://seismo-learn.org/seismology/'>https://seismo-learn.org/seismology/</a></li>" \
-		 "</ul>" \
-	> index.html
+	hugo
+	touch public/.nojekyll
+	echo seismo-learn.org > public/CNAME
+
+server:
+	hugo server
 
 clean:
-	rm -r public
+	rm -rf public resources assets/jsconfig.json
