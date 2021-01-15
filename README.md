@@ -2,7 +2,7 @@
 
 ![CI](https://github.com/seismo-learn/website/workflows/CI/badge.svg)
 
-本项目是 [seismo-learn 主页](https://seismo-learn.org/)的网站源码。
+本项目是 [seismo-learn 主页](https://seismo-learn.org/) 的网站源码。
 
 - 网站引擎：[Hugo](https://gohugo.io/)
 - 网站主题：[Wowchemy](https://wowchemy.com/)
