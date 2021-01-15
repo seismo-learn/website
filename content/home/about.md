@@ -54,18 +54,18 @@ seismo-learn，即地震“学”。
 
 ### 为什么要建这个网站？
 
-- 源起与 seisman 博客
-- 系统整理相关材料
-- 提供入门培训材料
+- 源起于 seisman 博客
+- 系统整理和维护与地震学相关的材料
+- 提供和维护地震学入门培训材料
 
 ### 我们是谁？
 
-- 姚家园 @ Nanyang Technological Universit
+- 姚家园（a.k.a. core-man） @ Nanyang Technological University
 - 田冬冬 (a.k.a. seisman) @ Michigan State University
 
 ### 如何参与？
 
-- github
-- bug
-- pull request
-- discussions
+- [GitHub](https://github.com/seismo-learn)
+- Issue
+- Pull Request
+- GitHub Discussions
