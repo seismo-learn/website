@@ -1,7 +1,7 @@
 all: build
 
 build:
-	hugo --minify
+	hugo
 	touch public/.nojekyll
 	echo seismo-learn.org > public/CNAME
 
