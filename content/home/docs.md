@@ -67,7 +67,7 @@ subtitle = ""
 {{% col "col-12 col-sm-4" %}}
 <div class="featurette-icon"><a href="https://seismo-learn.org/software/" target="_blank"><i class="fas fa-laptop-code fa-lg"></i></a></div>
 
-#### 地震学软件
+#### 地震“学“软件
 
 💻 软件装不好？程序跑不通？这里也许就有你需要的！走过路过不要错过！
 
@@ -82,7 +82,7 @@ subtitle = ""
 
 #### 地震学教程
 
-📚 开源、不限篇幅、随时更新、人人可编辑的地震学参考书！
+📚 人人可编辑的地震学参考书！开源、随时更新、不限篇幅！
 
 [<i class="fas fa-home fa-2x"></i>](https://seismo-learn.org/seismology/)
 [<i class="fab fa-github fa-2x"></i>](https://github.com/seismo-learn/seismology)
