@@ -22,5 +22,5 @@
 执行如下命令以更新主题：
 
 ```
-sh update_wowchemy.sh
+$ sh update_wowchemy.sh
 ```
