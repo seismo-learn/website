@@ -51,10 +51,11 @@ hero_media = "logo.png"
 #  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
-欢迎访问地震“学”网站！
+🎉 欢迎访问地震“学”网站！
 
 地震“学”网站源起于 [SeisMan 博客](https://seisman.info/)。
 建立本网站的核心目标是：
 
 - 提供地震学入门培训材料
-- 系统地整理和维护地震学科研相关的材料
+- 系统地整理和维护地震学科研相关材料
+- 促进地震学中文社区的交流和发展
