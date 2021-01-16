@@ -85,7 +85,7 @@ subtitle = ""
 
 {{% col "col-12 col-sm-4" %}}
 <div class="featurette-icon">
-  <a href="https://seismo-learn.org/seismology101/" target="_blank">
+  <a href="https://seismo-learn.org/seismology/" target="_blank">
     <i class="fas fa-book-reader fa-lg"></i>
 	<h4>地震学教程</h4>
   </a>
