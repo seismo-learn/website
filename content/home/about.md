@@ -55,7 +55,7 @@ subtitle = ""
 
 ### 如何参与？
 
-本站的网站和文档源码都开源托管在 [GitHub](https://github.com/seismo-learn) 上。
+地震“学”的网站和文档源码都开源托管在 [GitHub](https://github.com/seismo-learn) 上。
 欢迎地震学科研工作者通过 [Issue](https://github.com/seismo-learn/website/issues)
 和 [GitHub Discussions](https://github.com/seismo-learn/website/discussions)
 给予反馈。
