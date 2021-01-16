@@ -60,10 +60,10 @@ subtitle = ""
 
 🚀 科研入门毫无头绪？欢迎阅读专为地震学科研新手准备的入门教程！科研入门仅需 3 天！
 
-[<i class="fas fa-home fa-2x"></i>](https://seismo-learn.org/seismology101/)
-[<i class="fab fa-github fa-2x"></i>](https://github.com/seismo-learn/seismology101)
-[<i class="fas fa-bug fa-2x"></i>](https://github.com/seismo-learn/seismology101/issues)
-[<i class="fas fa-comment fa-2x"></i>](https://github.com/seismo-learn/seismology101/discussions)
+[<i class="fas fa-home fa-2x mr-2"></i>](https://seismo-learn.org/seismology101/)
+[<i class="fab fa-github fa-2x mr-2"></i>](https://github.com/seismo-learn/seismology101)
+[<i class="fas fa-bug fa-2x mr-2"></i>](https://github.com/seismo-learn/seismology101/issues)
+[<i class="fas fa-comment fa-2x mr-2"></i>](https://github.com/seismo-learn/seismology101/discussions)
 
 {{% /col %}}
 
@@ -77,10 +77,10 @@ subtitle = ""
 
 💻 软件装不好？程序跑不通？这里也许就有你需要的！走过路过不要错过！
 
-[<i class="fas fa-home fa-2x"></i>](https://seismo-learn.org/software/)
-[<i class="fab fa-github fa-2x"></i>](https://github.com/seismo-learn/software)
-[<i class="fas fa-bug fa-2x"></i>](https://github.com/seismo-learn/software/issues)
-[<i class="fas fa-comment fa-2x"></i>](https://github.com/seismo-learn/software/discussions)
+[<i class="fas fa-home fa-2x mr-2"></i>](https://seismo-learn.org/software/)
+[<i class="fab fa-github fa-2x mr-2"></i>](https://github.com/seismo-learn/software)
+[<i class="fas fa-bug fa-2x mr-2"></i>](https://github.com/seismo-learn/software/issues)
+[<i class="fas fa-comment fa-2x mr-2"></i>](https://github.com/seismo-learn/software/discussions)
 {{% /col %}}
 
 {{% col "col-12 col-sm-4" %}}
@@ -93,10 +93,10 @@ subtitle = ""
 
 📚 人人可编辑的地震学参考书！开源、随时更新、不限篇幅！
 
-[<i class="fas fa-home fa-2x"></i>](https://seismo-learn.org/seismology/)
-[<i class="fab fa-github fa-2x"></i>](https://github.com/seismo-learn/seismology)
-[<i class="fas fa-bug fa-2x"></i>](https://github.com/seismo-learn/seismology/issues)
-[<i class="fas fa-comment fa-2x"></i>](https://github.com/seismo-learn/seismology/discussions)
+[<i class="fas fa-home fa-2x mr-2"></i>](https://seismo-learn.org/seismology/)
+[<i class="fab fa-github fa-2x mr-2"></i>](https://github.com/seismo-learn/seismology)
+[<i class="fas fa-bug fa-2x mr-2"></i>](https://github.com/seismo-learn/seismology/issues)
+[<i class="fas fa-comment fa-2x mr-2"></i>](https://github.com/seismo-learn/seismology/discussions)
 {{% /col %}}
 
 {{% /row %}}
