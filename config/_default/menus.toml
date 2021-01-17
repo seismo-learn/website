@@ -17,3 +17,8 @@
   name = "关于"
   url = "#about"
   weight = 30
+
+[[main]]
+  name = '<i class="fab fa-github"></i>'
+  url = "https://github.com/seismo-learn"
+  weight = 40
