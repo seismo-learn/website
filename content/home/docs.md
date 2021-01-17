@@ -54,7 +54,7 @@ subtitle = ""
 <div class="featurette-icon">
   <a href="https://seismo-learn.org/seismology101/" target="_blank">
     <i class="fas fa-rocket fa-lg"></i>
-    <h4>地震学科研入门教程</h4>
+    <h4>地震“学”科研入门教程</h4>
   </a>
 </div>
 
@@ -87,7 +87,7 @@ subtitle = ""
 <div class="featurette-icon">
   <a href="https://seismo-learn.org/seismology/" target="_blank">
     <i class="fas fa-book-reader fa-lg"></i>
-	<h4>地震学教程</h4>
+	<h4>地震“学”参考书</h4>
   </a>
 </div>
 
