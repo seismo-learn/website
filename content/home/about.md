@@ -58,6 +58,6 @@ subtitle = ""
 地震“学”的网站和文档源码都开源托管在
 <i class="fab fa-github"></i> [GitHub](https://github.com/seismo-learn) 上。
 欢迎地震学科研工作者通过
-<i class="fas fa-bug"></i> [Issue](https://github.com/seismo-learn/website/issues) 和
+<i class="fas fa-bug"></i> [Issues](https://github.com/seismo-learn/website/issues) 和
 <i class="fas fa-comment"></i> [GitHub Discussions](https://github.com/seismo-learn/website/discussions)
 给予反馈。
