@@ -2,7 +2,6 @@ all: build
 
 build:
 	hugo
-	touch public/.nojekyll
 	echo seismo-learn.org > public/CNAME
 
 server:
