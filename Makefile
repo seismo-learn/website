@@ -2,7 +2,6 @@ all: build
 
 build:
 	hugo
-	echo seismo-learn.org > public/CNAME
 
 server:
 	hugo server
