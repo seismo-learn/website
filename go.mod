@@ -1,8 +1,7 @@
-module github.com/wowchemy/starter-academic
+module github.com/seismo-learn/website
 
 go 1.15
 
 require (
-	github.com/wowchemy/wowchemy-hugo-modules/netlify-cms-academic v0.0.0-20210106233222-68b9925c9351 // indirect
-	github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20210127175625-9e984eca83db
+	github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20210127225730-4ac1c6aa1a40
 )
