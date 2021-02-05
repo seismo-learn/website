@@ -25,11 +25,6 @@ jobs:
           hugo-version: 0.80.0
           extended: true
 
-      - name: Change Hugo baseurl so that PR preview works
-        run: |
-           sed -i 's#https://seismo-learn.org/#https://seismo-learn.org/sitepreview/seismo-learn/website/${{ github.head_ref }}/#' config/_default/config.toml
-        if: github.event_name == 'pull_request'
-
       - name: Build the website
         run: make all
 
