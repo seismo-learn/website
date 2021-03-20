@@ -22,7 +22,8 @@ jobs:
     - name: Checkout the website
       uses: actions/checkout@v2.3.4
       with:
-        ref: gh-pages
+        repository: seismo-learn/seismo-learn.github.io
+        ref: main
         path: website
 
     - name: Link Checker
