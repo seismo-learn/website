@@ -107,7 +107,7 @@ subtitle = ""
   </a>
 </div>
 
-🔖 地震学科研常用链接。
+🔖 地震学科研常用链接~
 
 [<i class="fas fa-home fa-2x mr-2"></i>](https://seismo-learn.org/links/)
 [<i class="fab fa-github fa-2x mr-2"></i>](https://github.com/seismo-learn/links)
