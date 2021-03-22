@@ -99,4 +99,19 @@ subtitle = ""
 [<i class="fas fa-comment fa-2x mr-2"></i>](https://github.com/seismo-learn/seismology/discussions)
 {{% /col %}}
 
+{{% col "col-12 col-sm-4" %}}
+<div class="featurette-icon">
+  <a href="https://seismo-learn.org/links/" target="_blank">
+    <i class="fas fa-bookmark fa-lg"></i>
+	<h4>地震“学”链接</h4>
+  </a>
+</div>
+
+🔖 地震学科研常用链接~
+
+[<i class="fas fa-home fa-2x mr-2"></i>](https://seismo-learn.org/links/)
+[<i class="fab fa-github fa-2x mr-2"></i>](https://github.com/seismo-learn/links)
+[<i class="fas fa-bug fa-2x mr-2"></i>](https://github.com/seismo-learn/links/issues)
+{{% /col %}}
+
 {{% /row %}}
