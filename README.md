@@ -30,7 +30,7 @@
     $ hugo
     ```
 
-    也可以生成本地 HTTP 服务器，在浏览器里打开 http://localhost:1313 以预览网站
+    也可以生成本地 HTTP 服务器，然后在浏览器里打开 http://localhost:1313 来预览网站
     ```
     $ hugo server
     ```
