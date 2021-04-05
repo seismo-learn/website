@@ -1,6 +1,6 @@
 # website
 
-[![Deploy](https://github.com/seismo-learn/website/workflows/Deploy/badge.svg)](https://github.com/seismo-learn/website/actions?query=workflow%3ADeploy)
+[![Deploy](https://github.com/seismo-learn/website/actions/workflows/deploy.yml/badge.svg)](https://github.com/seismo-learn/website/actions/workflows/deploy.yml)
 
 本项目是 [seismo-learn 主页](https://seismo-learn.org/) 的网站源码。
 
