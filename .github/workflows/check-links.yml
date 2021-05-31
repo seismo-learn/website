@@ -12,6 +12,9 @@ jobs:
   check_links:
     name: Check Links
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
 
     steps:
     - name: Check out the repositories and sites
