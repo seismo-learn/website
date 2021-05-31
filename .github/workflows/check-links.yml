@@ -18,8 +18,8 @@ jobs:
       run: |
         for repo in contributing links seismology seismology101 software website; do
           echo $repo
+          git clone --depth 1 --branch main https://github.com/seismo-learn/${repo} seismo-learn/${repo}/repo
         done
-        #  git clone --depth 1 --branch main https://github.com/seismo-learn/${repo} seismo-learn/${repo}/repo
         #done
         #for repo in contributing links seismology seismology101 software; do
         #  git clone --depth 1 --branch gh-pages https://github.com/seismo-learn/${repo} seismo-learn/${repo}/site
