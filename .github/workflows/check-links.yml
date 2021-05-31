@@ -31,6 +31,13 @@ jobs:
         args: >
           --accept 429
           --exclude-all-private
+          --exclude "http://localhost"
+          --exclude "https://fonts.gstatic.com"
+          --exclude "https://pkgs.org"
+          --exclude "https://www.fdsn.org/xml/station"
+          --exclude "https://www.hinet.bosai.go.jp"
+          --exclude "https://www.fnet.bosai.go.jp"
+          --exclude "https://apt.repos.intel.com/oneapi"
           --verbose
           "seismo-learn/*/repo/README.md"
           "seismo-learn/*/site/**/*.html"
