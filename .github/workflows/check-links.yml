@@ -32,8 +32,7 @@ jobs:
         # 429: Too many requests
         args: >
           --accept 429
-          --exclude "^https://seismo-learn.org/images/icon_hu87f995c79e6e1fece146ad5362c6d8c3_53652_192x192_fill_lanczos_center_2.png/$"
-          --exclude "http://localhost:1313/"
+          --exclude "http://localhost"
           --exclude "https://fonts.gstatic.com/"
           --verbose
           "repository/README.md"
@@ -43,6 +42,7 @@ jobs:
 
     - name: Create Issue From File
       uses: peter-evans/create-issue-from-file@v3
+      if: github.event_name != 'pull_request'
       with:
         title: Link Checker Report
         content-filepath: ./lychee/out.md
