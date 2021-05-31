@@ -16,8 +16,9 @@ jobs:
     steps:
     - name: Check out the repositories and sites
       run: |
-        echo A
-        #for repo in contributing links seismology seismology101 software website; do
+        for repo in contributing links seismology seismology101 software website; do
+          echo $repo
+        done
         #  git clone --depth 1 --branch main https://github.com/seismo-learn/${repo} seismo-learn/${repo}/repo
         #done
         #for repo in contributing links seismology seismology101 software; do
