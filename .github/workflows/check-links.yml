@@ -30,6 +30,7 @@ jobs:
         # 429: Too many requests
         args: >
           --accept 429
+          --exclude-all-private
           --verbose
           "seismo-learn/*/repo/README.md"
           "seismo-learn/*/site/**/*.html"
