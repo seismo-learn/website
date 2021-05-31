@@ -11,13 +11,10 @@
 
 1.  [安装 Hugo](https://gohugo.io/getting-started/installing/)
 
-    
+
 2.  下载网站源码
 
     ```
-    # 假设将源码下载到 ~/Downloads/ 目录下，切换至该目录
-    $ cd ~/Downloads/
-
     # 克隆源码，并进入源码目录
     $ git clone https://github.com/seismo-learn/website.git
     $ cd website
