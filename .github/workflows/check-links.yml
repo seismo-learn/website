@@ -14,7 +14,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # seismo-learn/website
     - name: Check out the repositories and sites
       run: |
         for repo in contributing links seismology seismology101 software website; do
