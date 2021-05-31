@@ -14,19 +14,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout the repository
-      uses: actions/checkout@v2.3.4
-      with:
-        repository: seismo-learn/website
-        ref: main
-        path: seismo-learn/website/repo
-
-    - name: Checkout the website
-      uses: actions/checkout@v2.3.4
-      with:
-        repository: seismo-learn/seismo-learn.github.io
-        ref: main
-        path: seismo-learn/website/site
+    # seismo-learn/website
+    - name: Check out the repositories and sites
+      run: |
+        for repo in contributing links seismology seismology101 software website; do
+	      git clone --depth 1 --branch main https://github.com/seismo-learn/${repo} seismo-learn/${repo}/repo
+        done
+        for repo in contributing links seismology seismology101 software; do
+	      git clone --depth 1 --branch gh-pages https://github.com/seismo-learn/${repo} seismo-learn/${repo}/site
+        done
+        git clone --depth 1 --branch main https://github.com/seismo-learn/seismo-learn.github.io seismo-learn/website/site
 
     - name: Link Checker
       uses: lycheeverse/lychee-action@v1.0.8
@@ -34,8 +31,6 @@ jobs:
         # 429: Too many requests
         args: >
           --accept 429
-          --exclude "http://localhost"
-          --exclude "https://fonts.gstatic.com/"
           --verbose
           "seismo-learn/*/repo/README.md"
           "seismo-learn/*/site/**/*.html"
