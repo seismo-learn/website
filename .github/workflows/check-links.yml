@@ -14,17 +14,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout the repository
-      uses: actions/checkout@v2.3.4
-      with:
-        path: repository
-
-    - name: Checkout the website
-      uses: actions/checkout@v2.3.4
-      with:
-        repository: seismo-learn/seismo-learn.github.io
-        ref: main
-        path: website
+    - name: Check out the repositories and sites
+      run: |
+        for repo in contributing seismology seismology101 software website links; do
+          git clone --depth 1 --branch main https://github.com/seismo-learn/${repo} seismo-learn/${repo}/repo
+        done
+        for repo in contributing seismology seismology101 software links; do
+          git clone --depth 1 --branch gh-pages https://github.com/seismo-learn/${repo} seismo-learn/${repo}/site
+        done
+        git clone --depth 1 --branch main https://github.com/seismo-learn/seismo-learn.github.io seismo-learn/website/site
 
     - name: Link Checker
       uses: lycheeverse/lychee-action@v1.0.8
@@ -32,11 +30,17 @@ jobs:
         # 429: Too many requests
         args: >
           --accept 429
+          --exclude-all-private
           --exclude "http://localhost"
-          --exclude "https://fonts.gstatic.com/"
+          --exclude "https://fonts.gstatic.com"
+          --exclude "https://pkgs.org"
+          --exclude "https://www.fdsn.org/xml/station"
+          --exclude "https://www.hinet.bosai.go.jp"
+          --exclude "https://www.fnet.bosai.go.jp"
+          --exclude "https://apt.repos.intel.com/oneapi"
           --verbose
-          "repository/README.md"
-          "website/**/*.html"
+          "seismo-learn/*/repo/README.md"
+          "seismo-learn/*/site/**/*.html"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
