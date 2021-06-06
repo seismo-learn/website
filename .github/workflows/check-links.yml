@@ -34,10 +34,11 @@ jobs:
           --exclude "http://localhost"
           --exclude "https://fonts.gstatic.com"
           --exclude "https://pkgs.org"
-          --exclude "https://www.fdsn.org/xml/station"
+          --exclude "https://www.fdsn.org/"
           --exclude "https://www.hinet.bosai.go.jp"
           --exclude "https://www.fnet.bosai.go.jp"
           --exclude "https://apt.repos.intel.com/oneapi"
+          --exclude "https://www.scopus.com/home.uri"
           --verbose
           "seismo-learn/*/repo/README.md"
           "seismo-learn/*/site/**/*.html"
