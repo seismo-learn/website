@@ -42,12 +42,14 @@ jobs:
           --verbose
           "seismo-learn/*/repo/README.md"
           "seismo-learn/*/site/**/*.html"
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Get current date
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
 
     - name: Create Issue From File
-      uses: peter-evans/create-issue-from-file@v3
+      uses: peter-evans/create-issue-from-file@v3.0.0
       if: github.event_name != 'pull_request'
       with:
-        title: Link Checker Report
+        title: Link Checker Report on ${{ steps.date.outputs.date }}
         content-filepath: ./lychee/out.md
