@@ -29,6 +29,7 @@ jobs:
       with:
         # 429: Too many requests
         args: >
+          --base https://seismo-learn.org
           --accept 429
           --exclude-all-private
           --exclude "http://localhost"
