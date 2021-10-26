@@ -50,8 +50,8 @@ subtitle = ""
 
 ### 维护者是谁？
 
-- 姚家园 (a.k.a. [core-man](https://github.com/core-man)) @ Nanyang Technological University
-- 田冬冬 (a.k.a. [seisman](https://github.com/seisman)) @ Michigan State University
+- 姚家园 (a.k.a. [core-man](https://github.com/core-man)) @中国地质大学（武汉）
+- 田冬冬 (a.k.a. [seisman](https://github.com/seisman)) @中国地质大学（武汉）
 
 ### 如何参与？
 
