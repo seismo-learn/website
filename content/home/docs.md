@@ -71,7 +71,7 @@ subtitle = ""
 <div class="featurette-icon">
   <a href="https://seismo-learn.org/software/" target="_blank">
     <i class="fas fa-laptop-code fa-lg"></i>
-	<h4>地震“学”软件</h4>
+    <h4>地震“学”软件</h4>
   </a>
 </div>
 
@@ -87,7 +87,7 @@ subtitle = ""
 <div class="featurette-icon">
   <a href="https://seismo-learn.org/seismology/" target="_blank">
     <i class="fas fa-book-reader fa-lg"></i>
-	<h4>地震“学”参考书</h4>
+    <h4>地震“学”参考书</h4>
   </a>
 </div>
 
@@ -103,7 +103,7 @@ subtitle = ""
 <div class="featurette-icon">
   <a href="https://seismo-learn.org/links/" target="_blank">
     <i class="fas fa-bookmark fa-lg"></i>
-	<h4>地震“学”链接</h4>
+    <h4>地震“学”链接</h4>
   </a>
 </div>
 
@@ -112,6 +112,21 @@ subtitle = ""
 [<i class="fas fa-home fa-2x mr-2"></i>](https://seismo-learn.org/links/)
 [<i class="fab fa-github fa-2x mr-2"></i>](https://github.com/seismo-learn/links)
 [<i class="fas fa-bug fa-2x mr-2"></i>](https://github.com/seismo-learn/links/issues)
+{{% /col %}}
+
+{{% col "col-12 col-sm-4" %}}
+<div class="featurette-icon">
+  <a href="https://seismo-learn.org/contributing/" target="_blank">
+    <i class="fas fa-code-branch fa-lg"></i>
+    <h4>贡献指南</h4>
+  </a>
+</div>
+
+✍️ 欢迎向地震“学”社区作贡献。
+
+[<i class="fas fa-home fa-2x mr-2"></i>](https://seismo-learn.org/contributing/)
+[<i class="fab fa-github fa-2x mr-2"></i>](https://github.com/seismo-learn/contributing)
+[<i class="fas fa-bug fa-2x mr-2"></i>](https://github.com/seismo-learn/contributing/issues)
 {{% /col %}}
 
 {{% /row %}}
