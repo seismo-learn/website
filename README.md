@@ -31,11 +31,3 @@
     ```
     $ hugo server
     ```
-
-## 更新主题
-
-执行如下命令以更新主题：
-
-```
-$ sh update_wowchemy.sh
-```
