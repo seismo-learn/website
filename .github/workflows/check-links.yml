@@ -30,6 +30,9 @@ jobs:
         # 429: Too many requests
         args: >
           --accept 429
+          --scheme http
+          --scheme https
+          --scheme ftp
           --exclude-all-private
           --exclude "http://localhost"
           --exclude "https://fonts.gstatic.com"
