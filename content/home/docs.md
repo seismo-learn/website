@@ -63,7 +63,7 @@ subtitle = ""
 [<i class="fas fa-home fa-xl mr-2"></i>](https://seismo-learn.org/seismology101/)
 [<i class="fab fa-github fa-xl mr-2"></i>](https://github.com/seismo-learn/seismology101)
 [<i class="fas fa-bug fa-xl mr-2"></i>](https://github.com/seismo-learn/seismology101/issues)
-[<i class="fas fa-comment fa-xl mr-2"></i>](https://github.com/seismo-learn/seismology101/discussions)
+[<i class="fas fa-comment fa-xl mr-2"></i>](https://github.com/orgs/seismo-learn/discussions)
 
 {{% /col %}}
 
@@ -80,7 +80,7 @@ subtitle = ""
 [<i class="fas fa-home fa-xl mr-2"></i>](https://seismo-learn.org/software/)
 [<i class="fab fa-github fa-xl mr-2"></i>](https://github.com/seismo-learn/software)
 [<i class="fas fa-bug fa-xl mr-2"></i>](https://github.com/seismo-learn/software/issues)
-[<i class="fas fa-comment fa-xl mr-2"></i>](https://github.com/seismo-learn/software/discussions)
+[<i class="fas fa-comment fa-xl mr-2"></i>](https://github.com/orgs/seismo-learn/discussions)
 {{% /col %}}
 
 {{% col "col-12 col-sm-4 book" %}}
@@ -96,7 +96,7 @@ subtitle = ""
 [<i class="fas fa-home fa-xl mr-2"></i>](https://seismo-learn.org/seismology/)
 [<i class="fab fa-github fa-xl mr-2"></i>](https://github.com/seismo-learn/seismology)
 [<i class="fas fa-bug fa-xl mr-2"></i>](https://github.com/seismo-learn/seismology/issues)
-[<i class="fas fa-comment fa-xl mr-2"></i>](https://github.com/seismo-learn/seismology/discussions)
+[<i class="fas fa-comment fa-xl mr-2"></i>](https://github.com/orgs/seismo-learn/discussions)
 {{% /col %}}
 
 {{% col "col-12 col-sm-4 book" %}}
