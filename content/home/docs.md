@@ -101,9 +101,9 @@ subtitle = ""
 
 {{% col "col-12 col-sm-4 book" %}}
 <div class="featurette-icon">
-  <a href="https://seismo-learn.org/links/" target="_blank">
+  <a href="https://seismo-learn.org/bookmarks/" target="_blank">
     <i class="fas fa-bookmark fa-lg"></i>
-    <h4>地震“学”链接</h4>
+    <h4>地震“学”书签</h4>
   </a>
 </div>
 
